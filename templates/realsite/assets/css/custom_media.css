@@ -1,0 +1,124 @@
+@charset 'UTF-8';
+
+/*------------------------------------------------------------------
+[Media Stylesheet]
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Min width 992px and Max width: 1199px
+2. Max width: 1140px 
+3. Max width: 992px
+4. Max width: 992px and min width: 768px
+5. Max width: 767px
+6. Max width: 480px
+7. Custom media for IE
+
+-------------------------------------------------------------------*/
+
+@media (min-width: 1380px) {
+}
+
+@media (mx-width: 1379px) {
+}
+
+@media (min-width: 1140px) and (max-width: 1350px) {
+
+}
+
+/*------------------------------------------------------------------
+[1. Min width 992px and Max width: 1199px ]
+*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*------------------------------------------------------------------
+[2. Max width: 1140px ]
+*/
+@media (max-width: 1140px) {
+}
+
+/*------------------------------------------------------------------
+[3. Max width: 991px ]
+*/
+@media (max-width: 991px) {
+    .btn.dropdown-toggle.form-control {
+        padding-right: 30px;
+    }
+    
+}
+
+/*------------------------------------------------------------------
+[4. Max width: 992px and min width: 768px]
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/*------------------------------------------------------------------
+[5. Max width: 767px]
+*/
+@media (max-width: 767px) {
+    .promoted {
+        min-height: 350px;
+    }
+    
+    .btn-group.bootstrap-select.span3 {
+        padding: 0;
+    }
+    
+    .header-title {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: calc(100vw - 30px - 65px);
+    }
+    
+    .properties-sort {
+        padding: 10px;
+    }
+    
+    .type-property-block .pull-right {
+        padding: 0;
+    }
+    
+    .ad-search .property-box-image {
+        max-height: 195px;
+    }
+    
+    .property-box-image img {
+        -webki-object-fit: cover;
+        object-fit: cover;
+        -webkit-object-position: center center;
+        object-position: center center;
+        max-height: 195px;
+    }
+    
+    .sidebar-ads-1  {
+        text-align: center;
+    }
+}
+
+/*------------------------------------------------------------------
+[6. Max width: 540px]
+*/
+
+@media (max-width:540px) {
+}
+
+/*------------------------------------------------------------------
+[7. Custom media for IE]
+*/
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+
+@media screen and (max-width:1140px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+}
+
+@media screen and (max-width:768px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+}
